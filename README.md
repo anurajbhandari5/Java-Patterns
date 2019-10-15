@@ -2,12 +2,14 @@
 Q=1:draw a pattern of square using stars(*)
 
 Q=2:Draw this pattern:-
+
                 *
                 * *
                 * * *
                 * * * *
                 
 Q=3:Take N (number of rows), print the following pattern (for N = 5)
+
                    1
                    2 2
                    3 3 3
@@ -22,12 +24,14 @@ Q=4:Take N (number of rows), print the following pattern (for N = 5)
                   5 0 0 0 5
                   
 Q=5:Fibonacci Pattern
+
                      0
                      1 1
                      2 3 5
                    8 13 21 34
                    
 Q=6:Draw this pattern for N=5
+
                         *
                      *  *  *  
                   *  *  *  *  *  
@@ -35,6 +39,7 @@ Q=6:Draw this pattern for N=5
                         *
                         
 Q=7:Take N (number of rows), print the following pattern (for N = 4)
+
                      1
                      2 3
                      4 5 6
