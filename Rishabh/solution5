@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Pattern16 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+
+		int nst = n;
+		int nsp = n - 1;
+		int nr = 2 * n - 1;
+
+		for (int row = 1; row <= nr; row++) {
+			for (int csp = 0; csp <= nsp; csp++) {
+				System.out.print(" ");
+			}
+			for (int cst = 1; cst <= nst; cst++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			if (row <= nr / 2) {
+				nst--;
+				nsp = nsp - 1;
+			} else {
+				nst++;
+				nsp = nsp + 1;
+			}
+
+		}
+
+	}
+
+}
