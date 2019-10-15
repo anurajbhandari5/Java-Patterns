@@ -75,3 +75,13 @@ Q=8:Take N (number of rows), print the following pattern (for N = 5)
                        1 2       2 1  
                        1 2 3   3 2 1
                        1 2 3 4 3 2 1   
+                      
+ Q=12: Enter a input (ex 3) then print 
+         
+               3 3 3 2 2 2 1 1 1
+               3 3 2 2 1 1
+               3 2 1
+               
+   
+               
+       
