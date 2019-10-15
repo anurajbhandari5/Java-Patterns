@@ -17,6 +17,7 @@ Q=3:Take N (number of rows), print the following pattern (for N = 5)
                    5 5 5 5 5
                    
 Q=4:Take N (number of rows), print the following pattern (for N = 5)
+
                   1
                   2 2
                   3 0 3
