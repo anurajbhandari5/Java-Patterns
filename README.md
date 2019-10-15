@@ -1,5 +1,6 @@
 # Java-Patterns
-Q=1:draw a pattern of square using stars(*).
+Q=1:draw a pattern of square using stars(*)
+
 Q=2:Draw this pattern:-
                 *
                 * *
