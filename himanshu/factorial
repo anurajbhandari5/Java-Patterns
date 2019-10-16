@@ -3,15 +3,16 @@ import java.util.Scanner;
 class fact {
     public static void main(String[] args) {
         
-        int n,fact=1;
+        int n,fact=1; //variables "n" for which we are calculating factorial and "fact" for storing factorial while loop in running
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number : ");
         n = sc.nextInt();
-        
-        for(int i = 1; i <= n; i++)
-        {
-            fact =fact*i;
+        int i=1;
+        while(i!=n+1){
+            fact=fact*i;
+            i++;
         }
-        System.out.printf("Factorial of %d = %d" ,n , fact);
+       
+        System.out.printf("Factorial of %d = %d" ,n , fact); //printing factorial stored in "fact" variable
     }
 }
