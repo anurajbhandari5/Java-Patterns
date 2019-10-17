@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class SwappingNumbers {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the first number:");
+		int first = scanner.nextInt();
+		System.out.println("Enter the second number:");
+		int second = scanner.nextInt();
+		scanner.close();
+
+		System.out.println("Initial value of numbers are: "+first+" and "+second);
+		
+		first = first + second;
+		second = first -second;
+		first = first - second;
+		
+		System.out.println("Value of numbers after swapping are: "+first+" and "+second);
+
+	}
+
+}
