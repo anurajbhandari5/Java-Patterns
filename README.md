@@ -81,7 +81,29 @@ Q=8:Take N (number of rows), print the following pattern (for N = 5)
                3 3 3 2 2 2 1 1 1
                3 3 2 2 1 1
                3 2 1
-               
-   
+ Q=13: Take N as input. For a value of N=5, we wish to draw the following pattern :
+        (Inverted Hour Glass)
+
+             5                   5 
+             5 4               4 5 
+             5 4 3           3 4 5 
+             5 4 3 2       2 3 4 5 
+             5 4 3 2 1   1 2 3 4 5 
+             5 4 3 2 1 0 1 2 3 4 5 
+             5 4 3 2 1   1 2 3 4 5 
+             5 4 3 2       2 3 4 5 
+             5 4 3           3 4 5 
+             5 4               4 5 
+             5                   5 
+
+ Q=14: Take N (number of rows), print the following pattern (for N = 6)
+       
+       1
+       1 1
+       1 2 1
+       1 3 3 1
+       1 4 6 4 1
+       1 5 10 10 5 1 
+	
                
        
