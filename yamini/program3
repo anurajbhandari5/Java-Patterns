@@ -1,30 +1,29 @@
-import java.util.*;
-import java.util.Scanner;
 
-public class ElseIf {
-	public static void main(String[] args) {
-		
-	
-		Scanner scn=new Scanner(System.in);
-		int age=  scn.nextInt();
-		
-		if(age<=11)
-		{
-			System.out.println("child");
-			
-		}
-		else if(age>=12 && age<18)
-		{
-			System.out.println("teenager");
-		}
-			else if(age>=18 && age<=60)
-			{
-				System.out.println("adult");
-			}
-			else if(age>60)
-			{
-				System.out.println("old");
-			}
-		
-
-}}
+public class Edureka
+{
+    public static void printNums(int n) 
+    { 
+        int i, j,num; 
+    
+        for(i=0; i<n; i++) // outer loop for rows
+        { 
+            num=1; 
+            for(j=0; j<=i; j++) // inner loop for rows
+            { 
+                // printing num with a space  
+                System.out.print(num+ " "); 
+    
+                //incrementing value of num 
+                num++; 
+            } 
+    
+            // ending line after each row 
+            System.out.println(); 
+        } 
+    } 
+       public static void main(String args[]) 
+    { 
+        int n = 5; 
+        printNums(n); 
+    } 
+}
