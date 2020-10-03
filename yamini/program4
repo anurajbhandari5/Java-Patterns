@@ -8,7 +8,7 @@ public class Pattern5 {
 		int n = sc.nextInt();
 		int nst=n;
 		int nsp=0;
-		
+		int count = 0;
 		//rows
 		int row=1;
 		while (row<=n)
