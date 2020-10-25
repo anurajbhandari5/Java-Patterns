@@ -1,0 +1,31 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+  //user friendly
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		
+		int nstar = 1;
+		int nspace = n - 1;
+		
+		for(int row = 1; row <= n; row++)
+		{
+		    for(int col = 1; col <= nstar; col++)
+		    {
+		        System.out.print("* ");
+		    }
+		    
+		    for(int col = 1; col <= nspace; col++)
+		    {
+		        System.out.print(" ");
+		    }
+		    
+		    nstar++;
+		    nspace--;
+		    System.out.println();
+		}
+	}
+}
