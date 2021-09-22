@@ -7,7 +7,7 @@ public class Edureka
         {
         for(j=2*(n-i); j>=0; j--) // inner loop for spaces 
             {           
-                System.out.print(" "); // printing space
+                System.out.print(" "); // printing spaces
             } 
             for(j=0; j<=i; j++) //  inner loop for columns
             {       
